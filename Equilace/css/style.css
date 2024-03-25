@@ -28,68 +28,6 @@ body {
 }
 
 
-/* Stile per la pagina di benvenuto */
-.welcome-page {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-    background-position: center;
-}
-
-#video-bg {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translate(-50%, -50%);
-}
-
-/* Stile per la freccia in basso */
-/* .scroll-icon {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%); */
-    /* z-index: 100; /* Assicura che la freccia sia sopra l'overlay */
-/* } */ 
-
-/* Stile per l'immagine della freccia */
-/* .scroll-icon img {
-    width: 50px;
-    height: auto;
-    cursor: pointer;
-} */
-
-/* Stile per l'icona di scorrimento */
-.scroll-down-icon {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 100; /* Assicura che la freccia sia sopra l'overlay */
-}
-
-.scroll-down-icon img {
-    width: 50px; /* Dimensione dell'icona */
-    height: auto;
-    cursor: pointer;
-}
-
-
-
 @media (max-width: 991px) {
     .sidebar {
         background-color: rgba(0, 0, 128, 0.15);
